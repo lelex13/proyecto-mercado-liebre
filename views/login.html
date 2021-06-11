@@ -10,35 +10,70 @@
     <link rel="stylesheet" href="/css/styles.css">
     <title>Login</title>
 </head>
+<header class="head-home">
+    <div class="header-top">
+        <div class="log-search">
+            <img src="./images/logo.svg" class="logo">
+            <h4 class="search"><input type="text" placeholder="Buscar productos  " style="width: 80%; height:80%;"><i class="fas fa-search"></i></h4>
+        </div>
+        <h4 class="header-main">
+        <i class="fas fa-hand-holding-usd"></i>   
+        Comprá en cuotas y sin tarjeta de crédito
+        </h4>
+    </div>
+    
+    <a href="#" class="burguer-buttom">
+        <i class="fas fa-bars" style="color: white;"></i>
+    </a>
+
+    <nav class="header-main-buttom-bar">
+        <ul>
+            <li><a href="">Ofertas</a></li>
+            <li><a href="">Tiendas Oficiales</a></li>
+            <li><a href="">Vender</a></li>
+            <li><a href="">Ayuda</a></li>
+        </ul>
+        <ul>
+            <li><a href="/register">Creá tu cuenta</a><i class="far fa-address-card"></i></li>
+            <li><a href="/login">Ingresá</a><i class="fas fa-sign-in-alt"></i></li>
+            <li><a href="">Mis compras</a> <i class="fas fa-shopping-basket"></i></li>
+        </ul>
+    </nav>
+</header>
 <body >
-    <div class="cuadro">
-        <header class="tituloLogin">
-            <h2>Ingrese a su cuenta</h2>
-            <hr class="lineaTitulo">
-        </header>
-        <div class="cuadroFormulario">
-            <section >
-                <form action="#" ></form>
-                    <p>Correo</p>
-                    <input class="cajaDatos" type="text">
-                    <p>Contraseña</p>
-                    <input class="cajaDatos" type="password"><br>
-                    <input type="checkbox"><span class="recordarme">Recordame</span>
-                    <div class="centrarEnlace">
-                        <a class="enlace" href="#">¿Olvidaste tu contraseña?</a>
-                    </div><br>
-                    <div class="boton">
-                        <button>Ingresar</button>
-                    </div>
-                </form>
-            </section>
-            <footer>
-                <hr>
-                <div class="centrarEnlace">
-                    <a class="enlace" href="#">¿Sin cuenta? Crea una aquí</a>
-                </div>
-            </footer>
+    <div class="login">
+        <div class="register-first">
+            <input type="text" placeholder="Nombre de usuario" class="register-input">
+        </div>
+        <div class="register-first">
+            <input type="text" placeholder="Elegí tu contraseña" class="register-input">
+        </div>
+        <div class="register-first">
+            <button type="submit" class="log-button">Enviar</button>
         </div>
     </div>
+    <footer>
+        <section>
+            <i class="fas fa-credit-card" id=card></i>
+            <h4>Pagá con tarjeta o en efectivo</h4>
+            <h6>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+        puntos de pago. ¡Y siempre es seguro!</h6>
+    </section>
+    <section>
+        <i class="fas fa-gift" id="card"></i>
+        <h4>Envío gratis desde $ 2.500</h4>
+        <h6>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+        productos. Es un beneficio de Mercado Puntos.</h6>
+    </section>
+    <section>
+        <i class="fas fa-user-shield" id="card"></i>
+        <h4>Seguridad, de principio a fin</h4>
+        <h6>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+        porque estás siempre protegid@.</h6>
+    </section>
+    <section>
+        <h6> Copyright © 1999-2020 MercadoLiebre S.R.L.</h6>
+    </section>
+    </footer>
 </body>
 </html>

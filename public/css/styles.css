@@ -4,7 +4,7 @@
 }
 
 
-header{
+.head-home{
     background-color: #EAC926;
     padding: 20px;
 }
@@ -117,12 +117,58 @@ article{
 
 footer{
     text-align: center;
+    padding-top: 5%;
 }
 #card{
     font-size: 2em;
     color: #1259c3;
     margin-bottom: 10px;
 }
+
+/*css login.html*/
+
+.login{
+    background-color: #ebebeb;
+    text-align: center;
+    padding: 10%;
+}
+.log-button{
+    background-color: #1259c3;
+    border-radius: 3px;
+    width: 100%;
+}
+
+/*css register.html*/
+
+.register{
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction:column;
+    padding: 10%;
+}
+.register-first{
+    padding-top: 5%;
+}
+.register-input{
+    width: 100%;
+    border-radius: 3px;
+}
+.register-radio{
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.register-checkbox{
+    flex-direction: row;
+    padding-top: 5%;
+}
+
+
+
+
+
+
 
 @media(min-width: 360px){
     article{

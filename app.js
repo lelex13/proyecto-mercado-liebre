@@ -8,8 +8,6 @@ app.use(express.static(path.resolve(__dirname, './public')));
     console.log('Servidor corriendo en el puerto 8000')
 });*/
 
-
-
 app.listen(process.env.PORT || 3000, function() {
     console.log("Servidor corriendo");
 })
