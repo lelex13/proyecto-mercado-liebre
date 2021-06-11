@@ -3,7 +3,7 @@
     font-family: 'Roboto';
 }
 
-
+/*css home.html*/
 .head-home{
     background-color: #EAC926;
     padding: 20px;
@@ -52,7 +52,7 @@
     padding: 5px 0;
     font-size: 17px;
 }
-.banner{
+#banner{
     width: 100%;
     height: 100%;
 }
@@ -86,17 +86,22 @@ main h6{
     padding-left: 15px;
 }
 article{
+    position: relative;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     border-top: 1px solid #ebebeb;
     box-shadow: none;
     background-color: white;
+    height: 450px;
+    width: 300px;
 }
 .image-article{
     padding-right: 15px;
     padding-left: 15px;
     border-bottom: 1px solid #ebebeb;
+    width: 275px;
+    height: 275px; 
 }
 #shipp{
     display: block;
@@ -199,6 +204,14 @@ footer{
     .header-main-buttom-bar li{
         padding: 0 5px;
     }
+    main{
+        text-align: left;
+    }
+    .article-section2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
 
 
@@ -215,5 +228,13 @@ footer{
     }
     .header-main-buttom-bar a {
         font-size: 20px;
+    }
+    main{
+        padding: 0px;
+    }
+    .article-section1{
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;   
     }
 }
